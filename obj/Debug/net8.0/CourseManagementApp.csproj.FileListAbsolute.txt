@@ -1,0 +1,14 @@
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\bin\Debug\net8.0\CourseManagementApp.exe
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\bin\Debug\net8.0\CourseManagementApp.deps.json
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\bin\Debug\net8.0\CourseManagementApp.runtimeconfig.json
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\bin\Debug\net8.0\CourseManagementApp.dll
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\bin\Debug\net8.0\CourseManagementApp.pdb
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.AssemblyInfoInputs.cache
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.AssemblyInfo.cs
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.dll
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\refint\CourseManagementApp.dll
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.pdb
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.genruntimeconfig.cache
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\ref\CourseManagementApp.dll

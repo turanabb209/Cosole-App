@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
 
 namespace CourseManagementApp
 {
@@ -28,51 +30,64 @@ namespace CourseManagementApp
 
                 switch (Input)
                 {
+                   //Console.WriteLine("Limit:");
+                    //int limit = Convert.ToInt32(Console.ReadLine());                   
                     case "1":
                         int categoryNum;
                         Console.WriteLine("Category:");
+                        Console.WriteLine("*Qeyd* Category olaraq bunlardan birini sece bilersiniz:\nProgramming, Design, SystemAdministration");
                         int.TryParse(Console.ReadLine(), out categoryNum);
                         Category category = (Category)categoryNum;
-                      
-                        Console.WriteLine(" Group is Online:");
-                        bool Isonline = Convert.ToBoolean(Console.ReadLine());
-                      
-                        Console.WriteLine("Limit:");
-                        int limit = Convert.ToInt32(Console.ReadLine());
+                        //if (!Enum.TryParse(categoryNum, true, out category))
+                        //{
+                        //    Console.WriteLine("Yanlış kateqoriya daxil edildi. Zehmet olmasa yeniden cehd edin");
+                        //    return;
+                        //}
 
-                        Group Group = new Group()
+                        Console.WriteLine("Qrup online-dirmi?\n *Qeyd:beli/xeyr secerek cavablandirin zehmet olmasa;");
+                        string isOnlineStr = Console.ReadLine().ToLower();
+                        bool isOnline = isOnlineStr == "beli";
+                        Console.WriteLine("Qrupun limitini daxil edin:");
+                        if (!int.TryParse(Console.ReadLine(), out int limit))
+                        {
+                            Console.WriteLine("Limit düzgün formatda deyil.");
+                            return;
+                        }
+                        //Console.WriteLine("Limit:");
+                        //int limit1 = Convert.ToInt32(Console.ReadLine());
+
+                     
+                        Group newGroup = new Group()
                         {
                             Category = category,
-                            IsOnline = Isonline,                          
-                        };
-
-
-                        CreateGroup(groups, Group);
-
-
+                            IsOnline = isOnline,
+                        
+                        };                    
+                        Helper.CreateGroup(groups, newGroup);
                         break;
+
                     case "2":
 
-                        ShowGroupList(groups);
+                        Helper.ShowGroupList(groups);
 
                         break;
                     case "3":
-                        Console.WriteLine("Duzelis etmek istediyiniz GroupNo daxil edin:");
+                        Console.WriteLine("Düzəliş etmək istədiyiniz GroupNo-ni daxil edin:");
                         string groupNo = Console.ReadLine();
 
                       
-                        EditGroup();
+                        Helper.EditGroup(groups);
 
 
                         break;
                     case "4":
 
-                        ShowStudentList(groups, students);
+                        Helper.ShowStudentList(groups, students);
 
                         break;
                     case "5":
 
-                        ShowAllStudentList(students);
+                        Helper.ShowAllStudentList(students);
 
                         break;
 
@@ -83,11 +98,14 @@ namespace CourseManagementApp
 
                         Console.WriteLine(" Surname");
                         string surname = Console.ReadLine();
+                        
+                        Console.WriteLine("Group adi daxil edin:");
+                        string groupName = Console.ReadLine();
 
-                        
-                        Console.WriteLine("Group:");
-                        
-                        Group group = Console.ReadLine();
+                        Group group = new Group
+                        {
+                            GroupName = groupName
+                        };
 
                         Console.WriteLine("GroupNo:");
                         string groupNo1 = Console.ReadLine();
@@ -100,7 +118,16 @@ namespace CourseManagementApp
                             GroupNo = groupNo1
 
                         };
-                        CreateStudent(students, student1);
+                        Console.WriteLine("Tələbə type-nı daxil edin (1 - Zəmanətli, 2 - Zəmanətsiz):");
+                        string typeStr = Console.ReadLine();
+                        int typeNum;
+                        if (!int.TryParse(typeStr, out typeNum) || !Enum.IsDefined(typeof(Type), typeNum))
+                        {
+                            Console.WriteLine("Yanlış tələbə type-ı daxil edildi.");
+                            return;
+                        }
+                        Type studentType = (Type)typeNum;
+                        Helper.CreateStudent(students, student1);
                         break;
                 }
                 
@@ -108,70 +135,19 @@ namespace CourseManagementApp
 
             Console.WriteLine("Program exited successfully!");
         }
-
-
-//-------------------------------------------------------METODLAR------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-        public static void CreateGroup(List<Group> groups,Group group)
-        {
-            groups.Add(group);
-        }
-        public static void ShowGroupList(List<Group> groups)
-        {
-            foreach (var item in groups)
-            {
-                Console.WriteLine($"Category:{item.Category}, Group is Online:{item.IsOnline}, Limit:{item.Limit}");
-            }
-        }
-        public static void EditGroup()
-        {
-            var existData = GetById(id);
-            Console.WriteLine("New GroupNo daxil edin:");
-            string newgroupNo = Console.ReadLine();
-            existData.GroupNo = newgroupNo;
-        }
-        public static void ShowStudentList(List<Group> groups, List<Student> students)
-        {
-            if ( existData == GetById(id))
-          {
-
-                    foreach (var student in students)
-                    {
-                        Console.WriteLine($"Name:{student.Name}, Surname:{student.Surname}, Group:{student.Group}, GroupNo:{student.GroupNo}");
-                    }
-                
-            }
-            else 
-            {
-                Console.WriteLine("Bele bir qrup tapilmadi");
-            }
-        }
-
-        private static void GetById(int id)
-        {
-            
-        }
-
-        public static void ShowAllStudentList(List<Student> students)
-        {
-            foreach(var item in students)
-            {
-                Console.WriteLine($"Name:{item.Name}, Surname:{item.Surname}, Group:{item.Group}, GroupNo:{item.GroupNo}");
-            }   
-        }
-        public static void CreateStudent(List<Student> students, Student student)
-        {
-            students.Add(student);
-        }
-       
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@ namespace CourseManagementApp
 {
    public  enum Type
     {
-       Zemanetli,
+       Zemanetli=1,
 
        Zemanetsiz
 

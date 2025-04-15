@@ -8,7 +8,7 @@ namespace CourseManagementApp
 {
     public enum Category
     {
-       Programming,
+       Programming=1,
        Design,
        SystemAdministration
 

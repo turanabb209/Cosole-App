@@ -12,3 +12,4 @@ C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\refint\Cour
 C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.pdb
 C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.genruntimeconfig.cache
 C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\ref\CourseManagementApp.dll
+C:\Users\dersu\OneDrive\Desktop\CourseManagementApp\obj\Debug\net8.0\CourseManagementApp.sourcelink.json

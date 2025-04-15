@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|c:\\users\\dersu\\onedrive\\desktop\\coursemanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|c:\\users\\dersu\\onedrive\\desktop\\coursemanagementapp\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|solutionrelative:group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|c:\\users\\dersu\\onedrive\\desktop\\coursemanagementapp\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|c:\\users\\dersu\\onedrive\\desktop\\coursemanagementapp\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|solutionrelative:category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|c:\\users\\dersu\\onedrive\\desktop\\coursemanagementapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|c:\\users\\dersu\\onedrive\\desktop\\coursemanagementapp\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B935737-661A-4C04-B51D-3BFD2CD88D08}|CourseManagementApp.csproj|solutionrelative:type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Helper.cs",
+              "RelativeDocumentMoniker": "Helper.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Helper.cs",
+              "RelativeToolTip": "Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:27:03.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Type.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Type.cs",
+              "RelativeDocumentMoniker": "Type.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Type.cs",
+              "RelativeToolTip": "Type.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T02:34:02.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T02:33:57.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Group.cs",
+              "RelativeDocumentMoniker": "Group.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Group.cs",
+              "RelativeToolTip": "Group.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:19:07.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Category.cs",
+              "RelativeDocumentMoniker": "Category.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Category.cs",
+              "RelativeToolTip": "Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:18:37.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dersu\\OneDrive\\Desktop\\CourseManagementApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:56:43.107Z",
+              "EditorCaption": ""
             }
           ]
         }
